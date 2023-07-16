@@ -14,7 +14,7 @@
    * Which brand has the most transactions among users who were created within the past 6 months?
      
    I used MySQL to convert json files to relational database, and wrote queries to answer the above questions given the existing data.
-    
+   [Click here to view the file](docs/file.txt)
 **3. Evaluate Data Quality Issues in the Data Provided**
    
    I used Python to identify potential data quality issues, including data completeness, integrity, consistency and reliability. 
