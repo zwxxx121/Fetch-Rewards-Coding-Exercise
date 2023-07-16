@@ -14,7 +14,8 @@
    * Which brand has the most transactions among users who were created within the past 6 months?
      
    I used MySQL to convert json files to relational database, and wrote queries to answer the above questions given the existing data.
-   [Click here to view the file](https://github.com/zwxxx121/Fetch-Rewards-Coding-Exercise/blob/main/Queries_Business_Questions.sql)
+   
+   [Click here to view the sql file](https://github.com/zwxxx121/Fetch-Rewards-Coding-Exercise/blob/main/Queries_Business_Questions.sql)
    
 **3. Evaluate Data Quality Issues in the Data Provided**
    
