@@ -20,6 +20,8 @@
 **3. Evaluate Data Quality Issues in the Data Provided**
    
    I used Python to identify potential data quality issues, including data completeness, integrity, consistency and reliability. 
+
+   [Click here to view the python file](https://github.com/zwxxx121/Fetch-Rewards-Coding-Exercise/blob/main/Fetch%20-%20Data%20Quality.ipynb)
    
 **4. Communicate with Stakeholders**
    
