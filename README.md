@@ -13,7 +13,7 @@
    * Which brand has the most spend among users who were created within the past 6 months?
    * Which brand has the most transactions among users who were created within the past 6 months?
      
-    I used MySQL to convert json files to relational database, and wrote queries to answer the above questions given the existing data.
+   I used MySQL to convert json files to relational database, and wrote queries to answer the above questions given the existing data.
     
 **3. Evaluate Data Quality Issues in the Data Provided**
    
