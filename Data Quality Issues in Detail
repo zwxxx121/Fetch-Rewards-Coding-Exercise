@@ -1,15 +1,20 @@
 1. Data Completeness: 
 
 I identified several instances of missing data across our three main data schemas: Receipts, Users, and Brand. 
-  * Receipts Table: Approximately half of the records are missing values for bonusPointsEarned, pointsEarned, finishedDate, pointsAwardedDate, and purchaseDate. These missing data points limit our ability to accurately track bonus points, transaction dates, and related metrics.
-  * Brand Table: Over 50% of the records lack values for categoryCode and the topBrand indicator, which hampers our ability to categorize brands and identify top brands effectively.
+  * Receipts Table: Approximately half of the records are missing values for bonusPointsEarned, pointsEarned, finishedDate, pointsAwardedDate, and purchaseDate. 
+    These missing data points limit our ability to accurately track bonus points, transaction dates, and related metrics.
+  * Brand Table: Over 50% of the records lack values for categoryCode and the topBrand indicator, which hampers our ability to categorize brands and identify top 
+    brands effectively.
   * Users Table: There are some missing values in the state and lastLogin fields, which may impact our user analytics and activity tracking.
 
 2. Data Integrity and Consistency: 
 
-During the assessment, I discovered 283 duplicate records in the Users Table.  Also, some userIds in the Receipts table do not correspond to existing records in the Users table.
+During the assessment, I discovered 283 duplicate records in the Users Table.  Also, some userIds in the Receipts table do not correspond to existing records in 
+the Users table.
 
 3. Data Reliability: 
 
-During the analysis, I encountered instances where a single barcode was associated with multiple brands in the Brand table, which raises concerns about potential data entry errors. Additionally, some receipts with a 'FINISHED' status still have unknown bonus points. We need to address whether these missing values indicate zero bonus points or if there are updates pending. 
+During the analysis, I encountered instances where a single barcode was associated with multiple brands in the Brand table, which raises concerns about potential data
+entry errors. Additionally, some receipts with a 'FINISHED' status still have unknown bonus points. We need to address whether these missing values indicate zero bonus 
+points or if there are updates pending. 
 
