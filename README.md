@@ -27,4 +27,4 @@
    
 **4. Communicate with Stakeholders**
    
-   The email encludes my questions about the data, my suggestions to resolve the data quality issues, other information I would need to optimize the data assets, my concerns in future production and how I plan to address them.
+   The email includes my questions about the data, my suggestions to resolve the data quality issues, other information I would need to optimize the data assets, my concerns in future production and how I plan to address them.
